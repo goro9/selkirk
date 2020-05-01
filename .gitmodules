@@ -1,0 +1,3 @@
+[submodule "handson-cjson/cJSON"]
+	path = handson-cjson/cJSON
+	url = git@github.com:DaveGamble/cJSON.git
