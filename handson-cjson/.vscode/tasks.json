@@ -8,7 +8,11 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-L",
+                "${workspaceFolder}/cJSON/build",
+                "-l",
+                "cjson"
             ],
             "options": {
                 "cwd": "/usr/bin"
